@@ -1,0 +1,1607 @@
+
+/* -------------------- inicio menu bottom-------------------- */
+.navbar_bottom {
+	background:#ededed;  /*#ededed;      b50a06*/
+	position: fixed;
+	bottom:0;
+	left: 0;
+	width: 100%;	
+	margin-bottom: 0;
+	border-top: 5px solid #ededed;
+	border-bottom:0px solid #ccc;
+	border-radius: 0px;
+	height:53px;
+	/*height:43px;*/
+}
+.navbar2_bottom a {
+	outline:none;
+	text-decoration:none;
+
+}
+.bottom_link a{
+	background-image: url(../imagens/inicio.svg);
+	background-size:20%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color:#;
+	width: 100%;
+	height:28px;
+	text-align:center;
+	display: inline-block;
+	color:#000;
+	margin-top:5px;
+	margin-bottom:0px;
+}
+.bottom_link p{
+	width: 100%;
+	text-align:center;
+	font-family:sans-serif;
+	font-size:0.65em;
+	font-weight:bold;
+	color:#828282;
+}
+.menu_botton_item_inicio{
+	float:left;
+	width: 17%;
+	height:53px;
+}
+.bottom_link_inicio a{
+	background-image: url(../imagens/inicio.svg);
+	background-size:14%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	height:28px;
+	text-align:center;
+	display: inline-block;
+	color:#000;
+	margin-top:5px;
+	margin-bottom:0px;
+}
+.bottom_link_inicio_active a{
+	background-image: url(../imagens/inicio_active.svg);
+	background-size:14%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	height:28px;
+	text-align:center;
+	display: inline-block;
+	color:#000;
+	margin-top:5px;
+}
+.bottom_link_inicio p{
+	width: 100%;
+	text-align:center;
+	font-family:sans-serif;
+	font-size:0.65em;
+	font-weight:bold;
+	color:#828282;
+}
+.bottom_link_inicio_active p{
+	width: 100%;
+	text-align:center;
+	font-family:sans-serif;
+	font-size:0.65em;
+	font-weight:bold;
+	color:#21522a;
+}
+.menu_botton_item_cardapio{
+	float:left;
+	width: 19%;
+	text-align:center;
+	display: inline-block;
+}
+.bottom_link_cardapio a{
+	background-image: url(../imagens/cardapio.svg);
+	background-size:14%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	height:28px;
+	text-align:center;
+	display: inline-block;
+	color:#000;
+	margin-top:5px;
+}
+.bottom_link_cardapio_active a{
+	background-image: url(../imagens/cardapio_active.svg);
+	background-size:14%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	height:28px;
+	text-align:center;
+	display: inline-block;
+	color:#000;
+	margin-top:5px;
+}
+.bottom_link_cardapio p{
+	width: 100%;
+	text-align:center;
+	font-family:sans-serif;
+	font-size:0.65em;
+	font-weight:bold;
+	color:#828282;
+}
+.bottom_link_cardapio_active p{
+	width: 100%;
+	text-align:center;
+	font-family:sans-serif;
+	font-size:0.65em;
+	font-weight:bold;
+	color:#21522a;
+}
+.menu_botton_item_produtos{
+	float:left;
+	width: 19%;
+	text-align:center;
+	display: inline-block;
+}
+.bottom_link_produtos a{
+	background-image: url(../imagens/produtos.svg);
+	background-size:14%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	height:28px;
+	text-align:center;
+	display: inline-block;
+	color:#000;
+	margin-top:5px;
+}
+.bottom_link_produtos_active a{
+	background-image: url(../imagens/produtos_active.svg);
+	background-size:14%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	height:28px;
+	text-align:center;
+	display: inline-block;
+	color:#000;
+	margin-top:5px;
+}
+.bottom_link_produtos p{
+	width: 100%;
+	text-align:center;
+	font-family:sans-serif;
+	font-size:0.65em;
+	font-weight:bold;
+	color:#828282;
+}
+.bottom_link_produtos_active p{
+	width: 100%;
+	text-align:center;
+	font-family:sans-serif;
+	font-size:0.65em;
+	font-weight:bold;
+	color:#21522a;
+}
+.menu_botton_item_planos{
+	float:left;
+	width: 25%;
+	text-align:center;
+	display: inline-block;
+}
+.bottom_link_planos a{
+	background-image: url(../imagens/pacotes.svg);
+	background-size:14%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	height:28px;
+	text-align:center;
+	display: inline-block;
+	color:#000;
+	margin-top:5px;
+}
+.bottom_link_planos_active a{
+	background-image: url(../imagens/pacotes_active.svg);
+	background-size:14%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	height:28px;
+	text-align:center;
+	display: inline-block;
+	color:#000;
+	margin-top:5px;
+}
+.bottom_link_planos p{
+	width: 100%;
+	text-align:center;
+	font-family:sans-serif;
+	font-size:0.65em;
+	font-weight:bold;
+	color:#828282;
+}
+.bottom_link_planos_active p{
+	width: 100%;
+	text-align:center;
+	font-family:sans-serif;
+	font-size:0.65em;
+	font-weight:bold;
+	color:#21522a;
+}
+.menu_botton_item_promo{
+	float:left;
+	width: 20%;
+	text-align:center;
+	display: inline-block;
+}
+.bottom_link_promo a{
+	background-image: url(../imagens/promo.svg);
+	background-size:14%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	height:28px;
+	text-align:center;
+	display: inline-block;
+	color:#000;
+	margin-top:5px;
+}
+.bottom_link_promo_active a{
+	background-image: url(../imagens/promo_active.svg);
+	background-size:14%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	height:28px;
+	text-align:center;
+	display: inline-block;
+	color:#000;
+	margin-top:5px;
+}
+.bottom_link_promo p{
+	width: 100%;
+	text-align:center;
+	font-family:sans-serif;
+	font-size:0.65em;
+	font-weight:bold;
+	color:#828282;
+}
+.bottom_link_promo_active p{
+	width: 100%;
+	text-align:center;
+	font-family:sans-serif;
+	font-size:0.65em;
+	font-weight:bold;
+	color:#21522a;
+}
+
+/* notebook e desktop 24 polegadas (1920x1200, 1920 x 1080) */
+@media (max-width:1920px){   
+	.bottom_link_inicio a{
+		background-size:14%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:14%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.65em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:14%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:14%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.65em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:14%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:14%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.65em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:14%;
+	}
+	.bottom_link_planos_active a{
+		background-size:14%;
+	}
+	.bottom_link_planos p{
+		font-size:0.65em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:14%;
+	}
+	.bottom_link_promo_active a{
+		background-size:14%;
+	}
+	.bottom_link_promo p{
+		font-size:0.65em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.65em;
+	}		
+}
+
+/* notebook e desktop 22 polegadas - macbook 13 polegadas (1680 x 1050) */
+@media (max-width:1680px){   
+	.bottom_link_inicio a{
+		background-size:14%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:14%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.65em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:14%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:14%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.65em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:14%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:14%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.65em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:14%;
+	}
+	.bottom_link_planos_active a{
+		background-size:14%;
+	}
+	.bottom_link_planos p{
+		font-size:0.65em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:16%;
+	}
+	.bottom_link_promo_active a{
+		background-size:16%;
+	}
+	.bottom_link_promo p{
+		font-size:0.65em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.65em;
+	}		
+}
+
+/* notebook e desktop 20 polegadas (1600 x 900) */
+@media (max-width:1600px){   
+	.bottom_link_inicio a{
+		background-size:16%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:16%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.65em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:16%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:16%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.65em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:16%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:16%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.65em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:16%;
+	}
+	.bottom_link_planos_active a{
+		background-size:16%;
+	}
+	.bottom_link_planos p{
+		font-size:0.65em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:16%;
+	}
+	.bottom_link_promo_active a{
+		background-size:16%;
+	}
+	.bottom_link_promo p{
+		font-size:0.65em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.65em;
+	}		
+}
+
+/* notebook, desktop e notebook with touch 13 polegadas (1280 x 768) */
+@media (max-width: 1280px){
+	.bottom_link_inicio a{
+		background-size:20%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:20%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.65em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:20%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:20%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.65em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:20%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:20%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.65em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:20%;
+	}
+	.bottom_link_planos_active a{
+		background-size:20%;
+	}
+	.bottom_link_planos p{
+		font-size:0.65em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:20%;
+	}
+	.bottom_link_promo_active a{
+		background-size:20%;
+	}
+	.bottom_link_promo p{
+		font-size:0.65em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.65em;
+	}		
+}
+
+/* 
+notebook e desktop 12 e 10 polegadas (1024 x 768)
+tablets ipad 12.5"  (1024 x 1336)
+ */
+@media (max-width: 1024px){
+	.bottom_link_inicio a{
+		background-size:25%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:25%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.65em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:25%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:25%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.65em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:25%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:25%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.65em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:27%;
+	}
+	.bottom_link_planos_active a{
+		background-size:27%;
+	}
+	.bottom_link_planos p{
+		font-size:0.65em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:27%;
+	}
+	.bottom_link_promo_active a{
+		background-size:27%;
+	}
+	.bottom_link_promo p{
+		font-size:0.65em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.65em;
+	}	
+}
+
+/* 
+tablets ipad 10.5"  (800 x 1280)
+*/
+@media (max-width: 834px){
+	.bottom_link_inicio a{
+		background-size:30%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:30%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.65em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:30%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:30%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.65em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:30%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:30%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.65em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:30%;
+	}
+	.bottom_link_planos_active a{
+		background-size:30%;
+	}
+	.bottom_link_planos p{
+		font-size:0.65em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:31%;
+	}
+	.bottom_link_promo_active a{
+		background-size:31%;
+	}
+	.bottom_link_promo p{
+		font-size:0.65em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.65em;
+	}	
+}
+
+/* 
+tablets 7.7" , 8.9" , 10.1"  (800 x 1280)
+Motorola Xoom, Xyboard, Amazon Kindle Fire 8.9" HDX
+*/
+@media (max-width: 800px){
+	.bottom_link_inicio a{
+		background-size:33%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:33%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.65em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:33%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:33%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.65em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:33%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:33%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.65em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:35%;
+	}
+	.bottom_link_planos_active a{
+		background-size:35%;
+	}
+	.bottom_link_planos p{
+		font-size:0.65em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:35%;
+	}
+	.bottom_link_promo_active a{
+		background-size:35%;
+	}
+	.bottom_link_promo p{
+		font-size:0.65em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.65em;
+	}	
+}
+
+/* tablet Apple iPad  (768 x 1024) */
+@media (max-width: 768px){
+	.bottom_link_inicio a{
+		background-size:33%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:33%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.65em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:33%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:33%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.65em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:33%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:33%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.65em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:35%;
+	}
+	.bottom_link_planos_active a{
+		background-size:35%;
+	}
+	.bottom_link_planos p{
+		font-size:0.65em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:35%;
+	}
+	.bottom_link_promo_active a{
+		background-size:35%;
+	}
+	.bottom_link_promo p{
+		font-size:0.65em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.65em;
+	}	
+}
+
+/* celulares
+5" , 5.5" - lindscap 
+*/
+@media (max-width: 640px){
+	.bottom_link_inicio a{
+		background-size:40%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:40%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.65em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:40%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:40%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.65em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:40%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:40%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.65em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:40%;
+	}
+	.bottom_link_planos_active a{
+		background-size:40%;
+	}
+	.bottom_link_planos p{
+		font-size:0.65em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:40%;
+	}
+	.bottom_link_promo_active a{
+		background-size:40%;
+	}
+	.bottom_link_promo p{
+		font-size:0.65em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.65em;
+	}	
+}
+
+/* 
+tablet
+Samsung Galaxy Tab (600 x 1024), 
+BlackBerry PlayBook (600 x 1024),
+Amazon Kindle Fire (600 x 800) 
+*/
+@media (max-width: 600px){
+	.bottom_link_inicio a{
+		background-size:45%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:45%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.65em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:45%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:45%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.65em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:45%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:45%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.65em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:45%;
+	}
+	.bottom_link_planos_active a{
+		background-size:45%;
+	}
+	.bottom_link_planos p{
+		font-size:0.65em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.65em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:48%;
+	}
+	.bottom_link_promo_active a{
+		background-size:48%;
+	}
+	.bottom_link_promo p{
+		font-size:0.65em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.65em;
+	}
+}
+
+/* 
+celulares 
+Motorola Droid 3 / 4 / Razr, Atrix 4G / 2 (540 x 960) 
+*/
+@media (max-width: 540px){
+	.bottom_link_inicio a{
+		background-size:50%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:50%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.55em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:50%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:50%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.55em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:50%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:50%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.55em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:53%;
+	}
+	.bottom_link_planos_active a{
+		background-size:53%;
+	}
+	.bottom_link_planos p{
+		font-size:0.55em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:53%;
+	}
+	.bottom_link_promo_active a{
+		background-size:53%;
+	}
+	.bottom_link_promo p{
+		font-size:0.55em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.55em;
+	}	
+}
+
+/* tablet Amazon Kindle Fire 7" HDX (533 x 853) */
+@media (max-width: 533px){
+	.bottom_link_inicio a{
+		background-size:50%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:50%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.55em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:50%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:50%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.55em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:50%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:50%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.55em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:53%;
+	}
+	.bottom_link_planos_active a{
+		background-size:53%;
+	}
+	.bottom_link_planos p{
+		font-size:0.55em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:53%;
+	}
+	.bottom_link_promo_active a{
+		background-size:53%;
+	}
+	.bottom_link_promo p{
+		font-size:0.55em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.55em;
+	}	
+}
+
+/* 
+celulares
+Sony Xperia Sola, U (480 x 854)
+3.5" Apple iPhone 3GS /4 (320 x 480 paisagem) 
+*/
+@media (max-width: 480px){
+	.bottom_link_inicio a{
+		background-size:55%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:55%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.55em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:55%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:55%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.55em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:55%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:55%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.55em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:60%;
+	}
+	.bottom_link_planos_active a{
+		background-size:60%;
+	}
+	.bottom_link_planos p{
+		font-size:0.55em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:57%;
+	}
+	.bottom_link_promo_active a{
+		background-size:57%;
+	}
+	.bottom_link_promo p{
+		font-size:0.55em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.55em;
+	}	
+}
+
+@media (max-width:449px){   
+	.bottom_link_inicio a{
+		background-size:55%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:55%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.55em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:55%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:55%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.55em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:55%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:55%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.55em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:60%;
+	}
+	.bottom_link_planos_active a{
+		background-size:60%;
+	}
+	.bottom_link_planos p{
+		font-size:0.53em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.53em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:60%;
+	}
+	.bottom_link_promo_active a{
+		background-size:60%;
+	}
+	.bottom_link_promo p{
+		font-size:0.55em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.55em;
+	}		
+}
+
+/* celulares
+LG Optimus LTE, 4X HD (424 x 753)
+Motorola Defy, Droid, Droid X, Milestone (424 x 753) 
+*/
+@media (max-width:424px){   
+	.bottom_link_inicio a{
+		background-size:55%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:55%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.55em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:55%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:55%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.55em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:55%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:55%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.55em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:60%;
+	}
+	.bottom_link_planos_active a{
+		background-size:60%;
+	}
+	.bottom_link_planos p{
+		font-size:0.53em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.53em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:60%;
+	}
+	.bottom_link_promo_active a{
+		background-size:60%;
+	}
+	.bottom_link_promo p{
+		font-size:0.55em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.55em;
+	}		
+}
+
+/* celular 
+5.5" 
+Apple iPhone 6 Plus (414 x 736) 
+J7 Prime
+*/
+@media (max-width:414px){   
+	.bottom_link_inicio a{
+		background-size:55%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:55%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.55em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:55%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:55%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.55em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:55%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:55%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.55em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:60%;
+	}
+	.bottom_link_planos_active a{
+		background-size:60%;
+	}
+	.bottom_link_planos p{
+		font-size:0.47em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.47em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:60%;
+	}
+	.bottom_link_promo_active a{
+		background-size:60%;
+	}
+	.bottom_link_promo p{
+		font-size:0.55em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.55em;
+	}		
+}
+
+/* 4.7" Apple iPhone 6 (375 x 667) */
+@media (max-width:375px){   
+	.bottom_link_inicio a{
+		background-size:55%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:55%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.55em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:55%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:55%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.55em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:55%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:55%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.55em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:60%;
+	}
+	.bottom_link_planos_active a{
+		background-size:60%;
+	}
+	.bottom_link_planos p{
+		font-size:0.47em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.47em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:60%;
+	}
+	.bottom_link_promo_active a{
+		background-size:60%;
+	}
+	.bottom_link_promo p{
+		font-size:0.55em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.55em;
+	}		
+}
+/* 
+celulares
+BlackBerry Z30, HTC One, EVO LTE (360 x 640),
+Google Nexus 5, HTC Sensation, Evo 3D (360 x 640)
+5" 
+5.5"
+ */
+@media (max-width: 360px){
+	.bottom_link_inicio a{
+		background-size:60%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:60%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.55em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:55%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:55%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.55em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:55%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:55%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.55em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:45%;
+	}
+	.bottom_link_planos_active a{
+		background-size:45%;
+	}
+	.bottom_link_planos p{
+		font-size:0.55em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:60%;
+	}
+	.bottom_link_promo_active a{
+		background-size:60%;
+	}
+	.bottom_link_promo p{
+		font-size:0.55em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.55em;
+	}	
+}
+
+/* 
+celulares
+3.5" Apple iPhone 3GS /4 (320 x 480),
+4" Apple iPhone 5 (320 x 568),
+Google Nexus S, LG Optimus 2X / 3D / Black (320 x 533),
+HTC Evo, Touch HD, Desire HD, Desire (320 x 533),
+4" Google Nexus S (320 x 533),
+LG Optimus One (213 x 320 paisagem)
+ */
+@media (max-width: 320px){
+	.bottom_link_inicio a{
+		background-size:55%;
+	}
+	.bottom_link_inicio_active a{
+		background-size:55%;
+	}
+	.bottom_link_inicio p{
+		font-size:0.55em;
+	}
+	.bottom_link_inicio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_cardapio a{
+		background-size:55%;
+	}
+	.bottom_link_cardapio_active a{
+		background-size:55%;
+	}
+	.bottom_link_cardapio p{
+		font-size:0.55em;
+	}
+	.bottom_link_cardapio_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_produtos a{
+		background-size:55%;
+	}
+	.bottom_link_produtos_active a{
+		background-size:55%;
+	}
+	.bottom_link_produtos p{
+		font-size:0.55em;
+	}
+	.bottom_link_produtos_active p{
+		font-size:0.55em;
+	}
+/* ----------------------------*/
+	.bottom_link_planos a{
+		background-size:60%;
+	}
+	.bottom_link_planos_active a{
+		background-size:60%;
+	}
+	.bottom_link_planos p{
+		font-size:0.42em;
+	}
+	.bottom_link_planos_active p{
+		font-size:0.42em;
+	}
+/* ----------------------------*/
+	.bottom_link_promo a{
+		background-size:60%;
+	}
+	.bottom_link_promo_active a{
+		background-size:60%;
+	}
+	.bottom_link_promo p{
+		font-size:0.55em;
+	}
+	.bottom_link_promo_active p{
+		font-size:0.55em;
+	}
+}
+/* -------------------- fim menu bottom-------------------- */
+

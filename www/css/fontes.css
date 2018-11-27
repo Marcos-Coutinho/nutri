@@ -1,0 +1,48 @@
+/*
+    Internet Explorer (all versions) - .EOT;
+    Safari (3.2+) - .TTF / .OTF;
+    iPhone (3.1) - .SVG;
+    Chrome (all versions) - .SVG (.TTF/.OTF added 25th Jan 2010);
+    Firefox (3.5+) - .TTF/.OTF (.WOFF added 3.6);
+    Opera (10+) - .TTF/.OTF.
+*/
+
+
+
+@font-face {
+    font-family: "Arabella";
+    src: local(Arabella), url(fonts/Arabella.ttf);
+	src:
+	url(fonts/Arabella.woff) format(woff),
+	url(fonts/Arabella.otf) format(opentype),
+	url(fonts/Arabella.svg#filename) format(svg);
+}
+
+@font-face {
+    font-family: "Bitter-Regular";
+    src: local(Bitter), url(fonts/Bitter-Regular.ttf);
+	src:
+	url(fonts/Bitter.woff) format(woff),
+	url(fonts/Bitter.otf) format(opentype),
+	url(fonts/Bitter.svg#filename) format(svg);
+}
+
+@font-face {
+    font-family: "Hero";
+    src: local(Hero), url(fonts/Hero.otf);
+	src:
+	url(fonts/Hero.woff) format(woff),
+	url(fonts/Hero.otf) format(opentype),
+	url(fonts/Hero.svg#filename) format(svg);
+}
+@font-face {
+    font-family: "swiss";
+    src: local(swiss), url(fonts/swiss.ttf);
+	src:
+	url(fonts/swiss.woff) format(woff),
+	url(fonts/swiss.otf) format(opentype),
+	url(fonts/swiss.svg#filename) format(svg);
+}
+
+
+
